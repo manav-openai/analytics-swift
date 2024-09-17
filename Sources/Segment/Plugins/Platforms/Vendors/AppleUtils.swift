@@ -202,7 +202,7 @@ internal class MacOSVendorSystem: VendorSystem {
     }
     
     override var name: String {
-        return device.hostName
+        return device.userName
     }
     
     override var identifierForVendor: String? {
